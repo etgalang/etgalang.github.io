@@ -1,0 +1,68 @@
+/* 
+    Name: Emmanuel Galang
+    Assignment: CSC300 HTML and CSS Project - Pie Recipe Page Stylesheet
+    Description: This stylesheet provides the styling for the pie recipe webpage. It includes styles for text, headings, lists, and other elements to enhance the page's visual appearance.
+*/
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: #A4A400;
+
+    background-color: #F0F0F0;
+    display: inline-block;
+    padding: 5px;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2,h3,h4,h5,
+h6 {
+    font-size: 18pt;
+    text-align: left;
+    font-weight: normal;
+}
+
+h2,h3,h4,h5,h6 {
+    font-size: 18pt;
+    text-align: left;
+    font-weight: normal;
+}
+
+body {
+    background-color: #FFFFFF;
+
+    color: #404040;
+
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    background-image: url('resources/silverware.jpg');
+    background-repeat: repeat;
+
+    background-attachment: fixed;
+
+
+}
+
+a {
+    color: #A4A400;
+
+}
+
+pre {
+    font-family: monospace;
+
+}
+
+blockquote.comment {
+    font-style: italic;
+    background-color: #FFFFA8;
+
+    margin-left: 20px;
+
+}
